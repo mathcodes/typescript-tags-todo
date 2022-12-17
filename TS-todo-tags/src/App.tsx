@@ -1,11 +1,13 @@
 import "bootstrap/dist/css/bootstrap.min.css"
 import { useMemo } from "react"
 import { Container } from "react-bootstrap"
-import { Routes, Route } from "react-router-dom"
+import { Routes, Route, Navigate } from "react-router-dom"
 import { NewNote } from "./NewNote"
 import { useLocalStorage } from "./useLocalStorage"
 import { v4 as uuidV4 } from "uuid"
 import { NoteList } from "./NoteList"
+import { NoteLayout } from "./NoteLayout"
+import { Note } from "./Note"
 
 export type Note = {
   id: string
@@ -89,12 +91,14 @@ export function App() {
             />
           }
         />
-        </Routes>
-        </Container>
-
-        
-    
+        <Route path="/:id" element={<NoteLayout notes={notesWithTags} />}>
+          <Route index element={<Note />} />
+          <Route path="edit" element={<h1>Edit</h1>} />
+        </Route>
+        <Route path="*" element={<Navigate to="/" />} />
+      </Routes>
+    </Container>
   )
 }
 
- 
+
