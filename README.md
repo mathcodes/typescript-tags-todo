@@ -6,24 +6,7 @@
 ![uuid](https://img.shields.io/badge/uuid-9.0.0-crimson)
 ![vite](https://img.shields.io/badge/vite-4.00-darkorchid)
 ![vite](https://img.shields.io/badge/react_markdown-8.0.4-black)
-https://buff.ly/3mK73Od
-https://buff.ly/3mK70C1
-https://buff.ly/3HoJsfp
-https://buff.ly/3MPnvqW
-https://buff.ly/3O2g4yh
-https://bit.ly/3txzEdo
-https://bit.ly/3NO3fHE
-https://bit.ly/3twlER5
-https://bit.ly/3zEje6Z
-https://bit.ly/3mIguxC
-https://bit.ly/3Hfeu9s
-https://bit.ly/3MER26E
-https://bit.ly/39k8Iaf
-https://bit.ly/3xrepee
-https://bit.ly/3aTHCXB
-https://bit.ly/3xIESW4
-https://bit.ly/3aVm2Ck
-https://bit.ly/3Hihull 
+
 
 This is an advanced to-do list using TypeScript and React. Users have the ability to filter, create, delete, edit and update their notes. Fully responsive and written with clean, easy to understand code!
 
