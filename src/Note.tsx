@@ -31,14 +31,14 @@ export function Note({onDelete}: NoteProps) {
     <Col xs="auto">
         <Stack gap={2} direction='horizontal'>
           <Link to={`/${note.id}/edit`}>
-            <Button variant="primary"> Edit </Button>
+            <Button className="button edit"> Edit </Button>
           </Link>
           <Button onClick={() => {
               onDelete(note.id)
               navigate("/")
-            }} variant="outline-danger"> Delete </Button>
+            }} className="button delete"> Delete </Button>
           <Link to="/">
-          <Button variant="outline-secondary">Back</Button>
+          <Button className="button back">Back</Button>
           </Link>
         </Stack>
       </Col>

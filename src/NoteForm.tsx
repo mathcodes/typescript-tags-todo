@@ -77,9 +77,9 @@ export function NoteForm({ onSubmit, onAddTag, availableTags, title = '', markdo
             rows={15} />
           </Form.Group>
           <Stack direction="horizontal" gap={2} className="justify-content-end">
-            <Button type="submit" variant="primary">Save</Button>
+            <Button type="submit" className="button save">Save</Button>
             <Link to="..">
-              <Button type="button" variant="outline-secondary">Cancel</Button>
+              <Button type="button" className="button cancel">Cancel</Button>
             </Link>
           </Stack>
         </Stack>

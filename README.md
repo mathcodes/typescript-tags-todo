@@ -10,7 +10,6 @@
 
 This is an advanced to-do list using TypeScript and React. Users have the ability to filter, create, delete, edit and update their notes. Fully responsive and written with clean, easy to understand code!
 
-### Creating new note:
 <img src="./src/assets/images/TS-todo-new-note.png" height="200px"/>
 
 ### Homepage with created note:

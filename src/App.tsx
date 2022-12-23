@@ -9,6 +9,7 @@ import { NoteList } from "./NoteList"
 import { NoteLayout } from "./NoteLayout"
 import { Note } from "./Note"
 import { EditNote } from "./EditNote"
+import './index.css'
 
 export type Note = {
   id: string
@@ -34,6 +35,8 @@ export type Tag = {
   id: string
   label: string
 }
+
+
 
 export function App() {
   const [notes, setNotes] = useLocalStorage<RawNote[]>("NOTES", [])
