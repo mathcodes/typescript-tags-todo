@@ -30,6 +30,7 @@ body {
 
 /* Buttons: edit, delete, back, save. cancel */
 
+
 button {
   border-radius: 8px;
   border: 1px solid transparent;
@@ -55,4 +56,23 @@ button:hover {
 .create:hover {
     background-color: var(--color-primary2);
     color: var(--color-accentOrange);
+}
+
+.edit{
+  background-color: var(--color-accentCyan);
+  color: var(--color-primary2);
+  border: var(--color-primary2);
+  transition: "all 0.2s";
+}
+.delete{
+  background-color: var(--color-accentOrange);
+  color: var(--color-primary2);
+  border: var(--color-primary2);
+  transition: "all 0.2s";
+}
+.back{
+  background-color: var(--color-accentBlue2);
+  color: var(--color-primary2);
+  border: var(--color-primary2);
+  transition: "all 0.2s";
 }
